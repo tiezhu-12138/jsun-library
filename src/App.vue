@@ -1,6 +1,4 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
 import JSON from './components/JSON.vue'
 </script>
 
@@ -8,10 +6,6 @@ import JSON from './components/JSON.vue'
   <header>
     <JSON />
   </header>
-
-  <main>
-    <TheWelcome />
-  </main>
 </template>
 
 <style scoped>
