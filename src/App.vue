@@ -10,8 +10,9 @@ import LibraryRegistrationForm from './components/LibraryRegistrationForm.vue'
   </header>
 
   <main>
-    <LibraryRegistrationForm />
-    <!-- <JSONLab /> -->
+    <!-- <LibraryRegistrationForm />
+    <JSONLab /> -->
+    <router-view></router-view>
   </main>
 </template>
 
